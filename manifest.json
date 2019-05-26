@@ -1,0 +1,21 @@
+{
+    "name": "Sparta Blocker Alert",
+    "version": "1.0",
+    "description": "Blocker Alert",
+    "background": {
+      "scripts": ["background.js"],
+      "persistent": true
+    },
+    "permissions": [
+    	"https://jira.corp.magento.com/rest/greenhopper/1.0/xboard/work/allData/?rapidViewId=964",
+    	"storage", "alarms","notifications"
+  	],
+  	 "options_ui": {
+    "page": "options.html",
+    "open_in_tab": false
+  },
+  "icons": { "16": "icon.png",
+           "48": "icon.png",
+          "128": "icon.png" },
+    "manifest_version": 2
+  }

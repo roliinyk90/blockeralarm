@@ -7,7 +7,7 @@ Chrome browser plugin which notify about blocker in the queue
 
 Must be authenticated in Jira
 
-##Installation
+## Installation
 
 Download and unzip or clone the files
 
